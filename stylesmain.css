@@ -1,0 +1,16 @@
+:root {
+    --primary: #3498db;
+    --aqi-good: #27ae60;
+    --aqi-hazardous: #8e44ad;
+}
+
+.aqi-display {
+    font-size: 3rem;
+    font-weight: bold;
+    color: var(--current-aqi-color);
+}
+
+#aqi-chart {
+    width: 100%;
+    max-height: 500px;
+}
